@@ -1,4 +1,4 @@
-# MAI 201 Assignment 2 — Data Validation & Testing
+#  — Data Validation & Testing
 
 Great Expectations + pytest pipeline for validating a messy customer dataset.
 
