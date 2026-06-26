@@ -1,7 +1,9 @@
 # Assignment 2 Report — Data Validation & Testing
 
 **Course:** MAI 201 MLOps
+
 **Author:** Peter Bello
+
 **Tooling:** Great Expectations 1.18.2, pytest 9.1.1, Python 3.12
 
 ---
