@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "name": "update_docs",
+      "site_names": [],
+      "type": "update_data_docs"
+    }
+  ],
+  "id": "cb72b7ae-3519-4d64-9a85-c373659266db",
+  "name": "customer_data_checkpoint",
+  "result_format": {
+    "result_format": "SUMMARY"
+  },
+  "validation_definitions": [
+    {
+      "id": "3c3b2455-2f79-4e4c-874a-11ec669f1bd0",
+      "name": "customer_data_validation"
+    }
+  ]
+}

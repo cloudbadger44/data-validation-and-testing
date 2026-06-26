@@ -1,0 +1,791 @@
+{
+  "success": false,
+  "statistics": {
+    "evaluated_validations": 1,
+    "success_percent": 0.0,
+    "successful_validations": 0,
+    "unsuccessful_validations": 1
+  },
+  "validation_results": [
+    {
+      "success": false,
+      "statistics": {
+        "evaluated_expectations": 8,
+        "successful_expectations": 0,
+        "unsuccessful_expectations": 8,
+        "success_percent": 0.0
+      },
+      "expectations": [
+        {
+          "expectation_type": "expect_column_values_to_be_unique",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "customer_id"
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 568,
+            "unexpected_percent": 11.675231243576567,
+            "partial_unexpected_list": [
+              "C00923",
+              "C01991",
+              "C00380",
+              "C00801",
+              "C00113",
+              "C00019",
+              "C02854",
+              "C00822",
+              "C00834",
+              "C00512",
+              "C00804",
+              "C00107",
+              "C00100",
+              "C00200",
+              "C00157",
+              "C00191",
+              "C00350",
+              "C00009",
+              "C00562",
+              "C01060"
+            ],
+            "missing_count": 150,
+            "missing_percent": 2.991026919242273,
+            "unexpected_percent_total": 11.326021934197408,
+            "unexpected_percent_nonmissing": 11.675231243576567,
+            "partial_unexpected_counts": [
+              {
+                "value": "C00009",
+                "count": 1
+              },
+              {
+                "value": "C00019",
+                "count": 1
+              },
+              {
+                "value": "C00100",
+                "count": 1
+              },
+              {
+                "value": "C00107",
+                "count": 1
+              },
+              {
+                "value": "C00113",
+                "count": 1
+              },
+              {
+                "value": "C00157",
+                "count": 1
+              },
+              {
+                "value": "C00191",
+                "count": 1
+              },
+              {
+                "value": "C00200",
+                "count": 1
+              },
+              {
+                "value": "C00350",
+                "count": 1
+              },
+              {
+                "value": "C00380",
+                "count": 1
+              },
+              {
+                "value": "C00512",
+                "count": 1
+              },
+              {
+                "value": "C00562",
+                "count": 1
+              },
+              {
+                "value": "C00801",
+                "count": 1
+              },
+              {
+                "value": "C00804",
+                "count": 1
+              },
+              {
+                "value": "C00822",
+                "count": 1
+              },
+              {
+                "value": "C00834",
+                "count": 1
+              },
+              {
+                "value": "C00923",
+                "count": 1
+              },
+              {
+                "value": "C01060",
+                "count": 1
+              },
+              {
+                "value": "C01991",
+                "count": 1
+              },
+              {
+                "value": "C02854",
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              5,
+              6,
+              7,
+              12,
+              13,
+              25,
+              30,
+              40,
+              49,
+              60,
+              81,
+              91,
+              93,
+              95,
+              114,
+              130,
+              139,
+              165,
+              171,
+              178
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_not_be_null",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "customer_id"
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 150,
+            "unexpected_percent": 2.991026919242273,
+            "partial_unexpected_list": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "partial_unexpected_counts": [
+              {
+                "value": null,
+                "count": 20
+              }
+            ],
+            "partial_unexpected_index_list": [
+              20,
+              57,
+              107,
+              123,
+              145,
+              152,
+              232,
+              244,
+              272,
+              296,
+              342,
+              351,
+              399,
+              455,
+              468,
+              493,
+              528,
+              529,
+              540,
+              541
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_be_between",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "age",
+            "min_value": 0.0,
+            "max_value": 120.0
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 384,
+            "unexpected_percent": 7.8882497945768275,
+            "partial_unexpected_list": [
+              999.0,
+              -25.0,
+              500.0,
+              -5.0,
+              300.0,
+              -25.0,
+              999.0,
+              200.0,
+              200.0,
+              -50.0,
+              300.0,
+              -50.0,
+              200.0,
+              -10.0,
+              -25.0,
+              999.0,
+              180.0,
+              999.0,
+              150.0,
+              -999.0
+            ],
+            "missing_count": 147,
+            "missing_percent": 2.931206380857428,
+            "unexpected_percent_total": 7.657028913260219,
+            "unexpected_percent_nonmissing": 7.8882497945768275,
+            "partial_unexpected_counts": [
+              {
+                "value": 999.0,
+                "count": 4
+              },
+              {
+                "value": -25.0,
+                "count": 3
+              },
+              {
+                "value": 200.0,
+                "count": 3
+              },
+              {
+                "value": -50.0,
+                "count": 2
+              },
+              {
+                "value": 300.0,
+                "count": 2
+              },
+              {
+                "value": -999.0,
+                "count": 1
+              },
+              {
+                "value": -10.0,
+                "count": 1
+              },
+              {
+                "value": -5.0,
+                "count": 1
+              },
+              {
+                "value": 150.0,
+                "count": 1
+              },
+              {
+                "value": 180.0,
+                "count": 1
+              },
+              {
+                "value": 500.0,
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              0,
+              8,
+              17,
+              23,
+              33,
+              36,
+              41,
+              52,
+              55,
+              78,
+              102,
+              106,
+              116,
+              120,
+              122,
+              131,
+              136,
+              146,
+              180,
+              196
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_match_regex",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "email",
+            "regex": "^[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.\\-]+\\.[A-Za-z]{2,}$"
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 346,
+            "unexpected_percent": 7.559536814507319,
+            "partial_unexpected_list": [
+              "@domain.com",
+              "invalid-email",
+              "user@@domain.com",
+              "no-dot@com",
+              "user@",
+              "user@@domain.com",
+              "no-dot@com",
+              "missingatsign.com",
+              "missingatsign.com",
+              "missingatsign.com",
+              "user@@domain.com",
+              "missingatsign.com",
+              "user@.com",
+              "user name@domain.com",
+              "multiple@issues@invalid",
+              "user@",
+              "user@",
+              "user@domain.",
+              "@domain.com",
+              "invalid-email"
+            ],
+            "missing_count": 438,
+            "missing_percent": 8.733798604187438,
+            "unexpected_percent_total": 6.899302093718844,
+            "unexpected_percent_nonmissing": 7.559536814507319,
+            "partial_unexpected_counts": [
+              {
+                "value": "missingatsign.com",
+                "count": 4
+              },
+              {
+                "value": "user@",
+                "count": 3
+              },
+              {
+                "value": "user@@domain.com",
+                "count": 3
+              },
+              {
+                "value": "@domain.com",
+                "count": 2
+              },
+              {
+                "value": "invalid-email",
+                "count": 2
+              },
+              {
+                "value": "no-dot@com",
+                "count": 2
+              },
+              {
+                "value": "multiple@issues@invalid",
+                "count": 1
+              },
+              {
+                "value": "user name@domain.com",
+                "count": 1
+              },
+              {
+                "value": "user@.com",
+                "count": 1
+              },
+              {
+                "value": "user@domain.",
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              3,
+              18,
+              37,
+              57,
+              107,
+              111,
+              122,
+              141,
+              157,
+              165,
+              175,
+              176,
+              177,
+              191,
+              196,
+              197,
+              198,
+              222,
+              235,
+              242
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_not_be_null",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "salary",
+            "mostly": 0.95
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 425,
+            "unexpected_percent": 8.47457627118644,
+            "partial_unexpected_list": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "partial_unexpected_counts": [
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              },
+              {
+                "value": null,
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              7,
+              15,
+              16,
+              42,
+              56,
+              63,
+              72,
+              81,
+              83,
+              87,
+              94,
+              97,
+              98,
+              103,
+              109,
+              148,
+              156,
+              157,
+              161,
+              172
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_be_in_set",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "country",
+            "value_set": [
+              "USA",
+              "Canada",
+              "UK",
+              "Australia"
+            ]
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 301,
+            "unexpected_percent": 6.051467631684761,
+            "partial_unexpected_list": [
+              "India",
+              "Spain",
+              "Brazil",
+              "Brazil",
+              "Brazil",
+              "Mexico",
+              "Spain",
+              "Mexico",
+              "Germany",
+              "Mexico",
+              "Brazil",
+              "Spain",
+              "Germany",
+              "China",
+              "InvalidCountry",
+              "Germany",
+              "Mexico",
+              "India",
+              "Germany",
+              "Mexico"
+            ],
+            "missing_count": 41,
+            "missing_percent": 0.8175473579262214,
+            "unexpected_percent_total": 6.001994017946162,
+            "unexpected_percent_nonmissing": 6.051467631684761,
+            "partial_unexpected_counts": [
+              {
+                "value": "Mexico",
+                "count": 5
+              },
+              {
+                "value": "Brazil",
+                "count": 4
+              },
+              {
+                "value": "Germany",
+                "count": 4
+              },
+              {
+                "value": "Spain",
+                "count": 3
+              },
+              {
+                "value": "India",
+                "count": 2
+              },
+              {
+                "value": "China",
+                "count": 1
+              },
+              {
+                "value": "InvalidCountry",
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              3,
+              14,
+              28,
+              41,
+              96,
+              105,
+              110,
+              115,
+              130,
+              164,
+              167,
+              177,
+              192,
+              194,
+              196,
+              199,
+              208,
+              225,
+              227,
+              244
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_column_values_to_match_strftime_format",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "column": "signup_date",
+            "strftime_format": "%m/%d/%Y"
+          },
+          "result": {
+            "element_count": 5015,
+            "unexpected_count": 242,
+            "unexpected_percent": 4.839032193561287,
+            "partial_unexpected_list": [
+              "2023-02-30",
+              "2023-02-29",
+              "2023-04-31",
+              "2023-02-30",
+              "2023-04-31",
+              "2023-02-30",
+              "2023-06-31",
+              "2023-04-31",
+              "2023-13-01",
+              "2023-09-31",
+              "not-a-date",
+              "2023-02-30",
+              "invalid-date",
+              "2023-06-31",
+              "invalid-date",
+              "2023-06-31",
+              "2023-06-31",
+              "2023-11-31",
+              "2023-02-30",
+              "2023-09-31"
+            ],
+            "missing_count": 14,
+            "missing_percent": 0.2791625124626122,
+            "unexpected_percent_total": 4.825523429710867,
+            "unexpected_percent_nonmissing": 4.839032193561287,
+            "partial_unexpected_counts": [
+              {
+                "value": "2023-02-30",
+                "count": 5
+              },
+              {
+                "value": "2023-06-31",
+                "count": 4
+              },
+              {
+                "value": "2023-04-31",
+                "count": 3
+              },
+              {
+                "value": "2023-09-31",
+                "count": 2
+              },
+              {
+                "value": "invalid-date",
+                "count": 2
+              },
+              {
+                "value": "2023-02-29",
+                "count": 1
+              },
+              {
+                "value": "2023-11-31",
+                "count": 1
+              },
+              {
+                "value": "2023-13-01",
+                "count": 1
+              },
+              {
+                "value": "not-a-date",
+                "count": 1
+              }
+            ],
+            "partial_unexpected_index_list": [
+              25,
+              27,
+              60,
+              66,
+              78,
+              86,
+              107,
+              133,
+              134,
+              153,
+              178,
+              179,
+              181,
+              187,
+              196,
+              219,
+              245,
+              274,
+              280,
+              319
+            ]
+          }
+        },
+        {
+          "expectation_type": "expect_table_row_count_to_be_between",
+          "success": false,
+          "kwargs": {
+            "batch_id": "customer_data_source-customer_data_asset",
+            "min_value": 500,
+            "max_value": 1000
+          },
+          "result": {
+            "observed_value": 5015
+          }
+        }
+      ],
+      "result_url": null
+    }
+  ]
+}

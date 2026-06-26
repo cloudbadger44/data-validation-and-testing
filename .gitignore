@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Great Expectations local artifacts (keep config, ignore generated docs)
+gx/uncommitted/
+!gx/uncommitted/data_docs/

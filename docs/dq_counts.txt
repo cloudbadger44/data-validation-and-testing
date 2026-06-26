@@ -1,0 +1,39 @@
+Rows: 5015
+Columns: ['customer_id', 'age', 'email', 'salary', 'country', 'phone', 'signup_date']
+
+Missing values per column:
+  customer_id  150
+  age          147
+  email        438
+  salary       425
+  country      41
+  phone        319
+  signup_date  14
+
+customer_id nulls: 150
+customer_id rows sharing a duplicated id (incl. originals): 718
+customer_id duplicate occurrences (excluding first): 452
+Fully duplicate rows: 15
+
+age > 120: 185
+age < 0:   199
+age out of [0, 120]: 384
+
+emails null:                  438
+emails present-but-invalid:   346
+
+salary null: 425  (8.47%)
+salary present: 91.53%  (threshold for 95% expectation)
+salary negative: 159
+
+country null:                41
+country not in allowed set:  301
+country distinct values: ['Australia', 'Brazil', 'Canada', 'China', 'France', 'Germany', 'India', 'InvalidCountry', 'Mexico', 'Spain', 'UK', 'USA']
+
+phone null: 319
+phone unique format examples: ['657.275.7931', '726-943-4216', '354 628 4176', '343-619-1894', '(996) 399-8947', '235.400.2061', '3366002146', '516.889.6123', '121-951-3248', '(748) 953-5550']
+
+signup_date null:        14
+signup_date wrong fmt:   242
+
+Row count: 5015 (expected 500-1000 — FAIL)
